@@ -1,0 +1,17 @@
+<p>
+  listas works!
+</p>
+
+<p *ngFor="let pregunta of preguntas">
+  {{pregunta}}
+</p>
+
+
+
+<p *ngFor="let object of preguntasObj">
+ <span>Nombre: {{object.nombre}}</span>
+ <br>
+ <span class="si">Apellido: {{object.apellidoPaterno}}</span>
+ <br>
+ <span class="no">Edad: {{object.edad}}</span>
+</p>

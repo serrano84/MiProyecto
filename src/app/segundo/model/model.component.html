@@ -1,0 +1,12 @@
+<p>
+  {{lado}}
+</p>
+<p>
+<input type="number" [ngModel]="lado" />
+</p>
+<p>
+<input type="number" [(ngModel)]="lado" />
+</p>
+<p>
+<input type="numer" [ngModel]="lado" (ngModelChange)="cambiarValor($event)" />
+</p>
